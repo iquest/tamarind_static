@@ -1,0 +1,2 @@
+# Redirect domain aliases to primary domain
+http://www.tamarind-tree.cz/* http://www.tamarindtree.cz/:splat 301!
