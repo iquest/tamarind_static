@@ -55,6 +55,11 @@ strong{
 }
 .img-fullwidth{
 	width: 100%;
+	display: block;
+}
+.img-responsive{
+	max-width: 100%;
+	display: block;
 }
 .bigger-text{
 	font-size: 22px;
@@ -127,6 +132,9 @@ h2{
 .response{
 	padding-top: 15px;
 }
+.visible-lg{
+	display: none;
+}
 
 /* * * Tablet * * */
 @media (min-width: 768px) {
@@ -152,7 +160,7 @@ h2{
 /* * * Desktop narrow * * */
 @media (min-width: 992px) {
 	.container{
-		max-width: 1050px;
+		max-width: 1425px;
 		width: 100%;
 	}
 	#total-wrap{
@@ -168,5 +176,16 @@ h2{
 }
 
 /* * * Desktop wide * * */
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
+	.content-col{
+		padding-right: 375px;
+	}
+	.visible-lg{
+		display: block;
+	}
+	.sidebar-col{
+		margin-left: -330px;
+		width: 330px;
+		float: left;
+	}
 }
