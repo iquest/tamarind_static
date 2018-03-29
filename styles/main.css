@@ -161,6 +161,10 @@ hr{
 	color: #fff;
 	text-decoration: none;
 }
+.icon-img{
+	vertical-align: middle;
+	display: inline-block;
+}
 
 /* * * Tablet * * */
 @media (min-width: 768px) {
