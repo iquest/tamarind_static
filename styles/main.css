@@ -127,7 +127,7 @@ h2{
 	position: absolute;
 	transition: all.3s;
 	top: -40px;
-	right: -40px;
+	right: -80px;
 	opacity: 0;
 }
 .btn-submit:hover:after{
