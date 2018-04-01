@@ -127,10 +127,10 @@ h2{
 	position: absolute;
 	transition: all.3s;
 	top: -40px;
-	right: -80px;
+	right: -40px;
 	opacity: 0;
 }
-.btn-submit:hover:after, .btn-submit:active:after, .btn-submit:focus:after{
+.btn-submit:hover:after{
 	opacity: 1;
 }
 .response{
